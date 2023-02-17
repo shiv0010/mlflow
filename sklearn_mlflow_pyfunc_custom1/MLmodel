@@ -1,0 +1,16 @@
+flavors:
+  python_function:
+    artifacts:
+      sklearn_model:
+        path: artifacts/Sentiment-BiLSTM
+        uri: Sentiment-BiLSTM
+    cloudpickle_version: 2.2.1
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.9.16
+mlflow_version: 2.1.1
+model_uuid: 9d9796eac71b47deb5593f3fd55f7565
+utc_time_created: '2023-02-17 06:51:53.439138'
