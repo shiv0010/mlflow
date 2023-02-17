@@ -1,2 +1,4 @@
 contractions.csv
 training.1600000.processed.noemoticon.csv
+.DS_Store
+--tracking_uri/
